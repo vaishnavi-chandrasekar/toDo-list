@@ -6,7 +6,7 @@ import Emoji from 'react-emoji-render';
 export const TASK_STATUSES = {
 	TO_DO: 'TO_DO',
 	DONE: 'DONE'
-};
+}
 
 export default (props) => {
 	const handleChange = (name, type) => {
